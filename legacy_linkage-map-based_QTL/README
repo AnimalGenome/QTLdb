@@ -1,1 +1,88 @@
+TITLE: Separate and deposit traditional linkage-map-based QTL as legacy data
 
+I. Introduction
+
+ There has been a trend that traditional linkage-map-based QTL analysis
+ developed since mid-1990s is diminishing as sequence-based genome maps
+ and SNP-based analysis has taking the stage. This work is to separate from
+ the QTLdb and store them away as legacy data.
+
+II. Data export plans and scheme
+
+ (1) Current data status and criteria for export:
+     Major data counts, selected based on data types and mapping types:
+    +----------+-------------+---------+
+    | count(1) | assotype    | maptype |
+    +----------+-------------+---------+
+    |   240150 | Association | Genome  |
+    |     5415 | Association | Linkage |
+    |     2892 | eQTL        | Genome  |
+    |     1125 | eQTL        | Linkage |
+    |    12232 | QTL         | Genome  |
+    |    13342 | QTL         | Linkage |<--- this is the catagory to save away
+    +----------+-------------+---------+
+
+ (2) Data sources:
+    o Query data:
+     - MySQL `QTLdata' table (primary information)
+     - MySQL `reference' table (essential information)
+     - MySQL `traits' table (essential information; + `trait variants' info)
+     - MySQL `breeds' table (extended information)
+     - MySQL 'GeneIDs' table (extended information)
+    [explained]
+     - Map data (essential information) from MySQL `QTLdata' table, referenced
+       to the backbone map publications.
+    o Manual data:
+     - Backbone map (essential, one per species): Reference info.
+
+ (3) Data format:
+    VCF-like data format(?), which includes (1) extended/attached meta 
+    information on the dataset and, (2) a tab-delimited data sheet, in a
+    single file.
+
+III. Methods and execution:
+
+ (1) Planning:
+     (omitted)
+
+ (2) Information to include as "header" of each data file:
+     (omitted)
+
+ (3) Execution:
+    All-in-one perl script to pull everything together.
+
+ (4) Data files saved:
+    VCF-like data format, one file per species, in a format described above, 
+    with row counts (output from the script):
+    - QTLdb_legacyQTLdata.cattle.txt: 3782
+    - QTLdb_legacyQTLdata.chicken.txt: 2701
+    - QTLdb_legacyQTLdata.horse.txt: 31
+    - QTLdb_legacyQTLdata.pig.txt: 6099
+    - QTLdb_legacyQTLdata.sheep.txt: 592
+    - QTLdb_legacyQTLdata.trout.txt: 104
+
+IV. Summary:
+
+ - README (this file).
+
+V. Additional information:
+
+ (1) The plan to save away traitional linkage-map-based QTL data was announced
+     (Animal QTLdb Release #51, https://www.animalgenome.org/QTLdb/release/#51)
+     in August, 2023.
+
+ (2) The said data was exported and placed on archive in December 2023
+     (Animal QTLdb Release #52, https://www.animalgenome.org/QTLdb/release/#52)
+     The data will be taken off from all online services, but remain in the
+     (hot)system before their final removal in April 2023.
+
+ (3) The said data will be removed/deleted from the QTLdb by April 2023.
+     (Animal QTLdb Release #53, https://www.animalgenome.org/QTLdb/release/#53)
+
+  The above time gaps are given as a buffer to avoid unexpected from happening,
+  and for possible public feedbacks, such that we have time/room to act for a
+  smooth transition.
+
+-----------
+Zhiliang Hu
+(Sun Dec 17 13:28:53 CST 2023)
