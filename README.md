@@ -19,9 +19,9 @@ to be as inclusive and adhere to original data as possible. However we make
 no guarantee of free of errors. Therefore this data is provided *as is*
 without warranty, and it's for the sole purpose of research use only.
 
-RELATED RESOURCES:
-PubMed: https://pubmed.ncbi.nlm.nih.gov/
-VTO: https://bioportal.bioontology.org/ontologies/VT
-LPT: https://bioportal.bioontology.org/ontologies/LPT
-CMO: https://bioportal.bioontology.org/ontologies/CMO
+RELATED RESOURCES:<br>
+PubMed: https://pubmed.ncbi.nlm.nih.gov/<br>
+VTO: https://bioportal.bioontology.org/ontologies/VT<br>
+LPT: https://bioportal.bioontology.org/ontologies/LPT<br>
+CMO: https://bioportal.bioontology.org/ontologies/CMO<br>
 LBO: https://bioportal.bioontology.org/ontologies/LBO
