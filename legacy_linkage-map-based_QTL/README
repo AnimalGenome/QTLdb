@@ -56,10 +56,10 @@ III. Methods and execution:
  (4) Data files saved:
     VCF-like data format, one file per species, in a format described above, 
     with row counts (output from the script):
-    - QTLdb_legacyQTLdata.cattle.txt: 3782
-    - QTLdb_legacyQTLdata.chicken.txt: 2701
+    - QTLdb_legacyQTLdata.cattle.txt: 3,782
+    - QTLdb_legacyQTLdata.chicken.txt: 2,701
     - QTLdb_legacyQTLdata.horse.txt: 31
-    - QTLdb_legacyQTLdata.pig.txt: 6099
+    - QTLdb_legacyQTLdata.pig.txt: 6,099
     - QTLdb_legacyQTLdata.sheep.txt: 592
     - QTLdb_legacyQTLdata.trout.txt: 104
 
@@ -84,6 +84,8 @@ V. Additional information:
   The above time gaps are given as a buffer to avoid unexpected from happening,
   and for possible public feedbacks, such that we have time/room to act for a
   smooth transition.
+
+REF: https://www.animalgenome.org/QTLdb/archive_legacy.data/
 
 -----------
 Zhiliang Hu
