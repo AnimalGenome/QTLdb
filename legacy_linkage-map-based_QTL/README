@@ -38,7 +38,7 @@ II. Data export plans and scheme
      - Backbone map (essential, one per species): Reference info.
 
  (3) Data format:
-    VCF-like data format(?), which includes (1) extended/attached meta 
+    VCF-like data format, which includes (1) extended/attached meta 
     information on the dataset and, (2) a tab-delimited data sheet, in a
     single file.
 
