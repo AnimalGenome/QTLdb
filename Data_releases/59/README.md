@@ -1,5 +1,6 @@
 # Release 59
-## (Apr 20, 2026)
+
+(Apr 20, 2026)
 
 A sum of <B>7,562</B> new QTL/associations have been curated into the 
 database. (New additions less obsolete/retracted ones: <I>Cattle: 5,291; 
