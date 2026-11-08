@@ -1,3 +1,7 @@
+# Data download agreements
+
+Any user who downloads data from this location is supposed to have agreed upon the following terms and conditions:
+
 I am aware that this database by nature is a research platform which is under 
 active development.  As such, the data may change in the future.
 
