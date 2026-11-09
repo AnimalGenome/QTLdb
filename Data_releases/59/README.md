@@ -17,3 +17,21 @@ In addition, data updates were made to about 1,097 QTL/associations, 67 base
 traits, and 39 trait variants, partly as a result of active developments 
 of trait ontologies (VT, LPT, CMO). Base trait updates by species -- cattle:
 17; chicken: 18; goat: 4; pig: 173; horse: 3; pig: 15; sheep: 10.
+
+## User Agreements
+
+Any user who downloads data from this location is supposed to have agreed upon the following terms and conditions:
+
+I am aware that this database by nature is a research platform which is under active development. As such, the data may change in the future.
+
+I am aware that the Animal THEDBNM developers strive to incorporate data that are accurate, up to date, and consistent with published data. However, I acknowledge that they will not be held responsible for possible errors inadvertently entered into the database. We commit corrections should the case be reported to us.
+
+I understand that the data from AnimalGenome.ORG are covered by the Creative Commons Attribution Non-commercial 4.0 International License.
+
+I will keep my promise to properly reference Animal THEDBNM as the data source in any future publications or websites where the downloaded data is used, following the guideline: https://www.animalgenome.org/THEDBNM/doc/copyright
+
+## Disclaim
+
+This data is provided "as is" with NO warranty, for the sole purpose of research use only. Please note these genome 'bp' coordinates situations:
+
+The genome build (or "maps), to which the original QTL/association data were curated to, is called "primary build". The curated data have been liftover to "other builds" by an NAGRP in-house procedure/pipeline based on stable SNP re-mappings. Users are encouraged to verify the results when in doubt on certain data sets. We welcome all discussions for improvements.
