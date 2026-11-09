@@ -30,6 +30,13 @@ I understand that the data from AnimalGenome.ORG are covered by the Creative Com
 
 I will keep my promise to properly reference Animal QTLdb as the data source in any future publications or websites where the downloaded data is used, following the guideline: https://www.animalgenome.org/QTLdb/doc/copyright
 
+## Copyrights and User Guidelines
+
+The Animal QTLdb is covered by the <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International License</a>.
+
+Cite the use of the QTLdb data:
+Zhi-Liang Hu, Carissa Park, James M. Reecy (<?php print "$releaYr";?>). Animal QTLdb. [online database, URL: https://www.animalgenome.org/QTLdb; Release #59; DOI: <a href="https://doi.org/10.25380/iastate.13656314">10.25380/iastate.13656314</a>]
+
 ## Disclaim
 
 This data is provided "as is" with NO warranty, for the sole purpose of research use only. Please note these genome 'bp' coordinates situations:
