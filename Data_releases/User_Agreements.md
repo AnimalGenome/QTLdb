@@ -1,4 +1,4 @@
-# Data download agreements
+# Data download user agreements
 
 Any user who downloads data from this location is supposed to have agreed upon the following terms and conditions:
 
