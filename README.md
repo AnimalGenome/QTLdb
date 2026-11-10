@@ -8,7 +8,13 @@ publicly available functional genome mapping data (i.e. QTL, eQTL, GWAS,
 CNV, etc) in several livestock animal species. The utility of the database
 may include but not limited to facilitating comparisons between experiments,
 within and across species.  Publications on Animal QTLdb: (PubmedID)
-34850103, 30407520, 26602686, 23180796, 17245610, 17135205, 17245610.
+<a href="https://pubmed.ncbi.nlm.nih.gov/34850103/">34850103</a>, 
+<a href="https://pubmed.ncbi.nlm.nih.gov/30407520/">30407520</a>, 
+<a href="https://pubmed.ncbi.nlm.nih.gov/26602686/">26602686</a>, 
+<a href="https://pubmed.ncbi.nlm.nih.gov/23180796/">23180796</a>, 
+<a href="https://pubmed.ncbi.nlm.nih.gov/17245610/">17245610</a>, 
+<a href="https://pubmed.ncbi.nlm.nih.gov/17135205/">17135205</a>, 
+<a href="https://pubmed.ncbi.nlm.nih.gov/17245610/">17245610</a>.
 
 WEBSITE:
 https://www.animalgenome.org/QTLdb
