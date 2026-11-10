@@ -2,7 +2,7 @@
 
 A supplementary data repository for Animal QTLdb
 
-ABOUT THE ANIMAL QTLdb:
+ABOUT the Animal QTLdb:
 Animal QTLdb is developed at the Iowa State University to collect all
 publicly available functional genome mapping data (i.e. QTL, eQTL, GWAS,
 CNV, etc) in several livestock animal species. The utility of the database
